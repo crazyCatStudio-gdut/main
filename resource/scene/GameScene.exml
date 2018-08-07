@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameSceneSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16513eb1b6a" ></w:Config>
+	<e:Group id="blockPanel" left="0" right="0" top="0" bottom="0">
+		<e:Image id="bg" left="0" right="0" top="0" bottom="0" source="bg_jpg"/>
+		<e:Image id="player" height="130" x="100" y="930" source="piece_png"/>
+		<e:Label id="scoreLabel" text="0" x="100" y="100" textColor="0x0c0c0c" size="90"/>
+		<e:Image id="share" width="42" height="48" x="18" y="1060" source="observShare_png"/>
+		<e:Image width="180" height="180" x="103" y="757" source="block2_png"/>
+	</e:Group>
+	<e:Group id="overPanel" left="0" right="0" top="0" bottom="0">
+		<e:Rect fillAlpha="0.6" left="0" right="0" top="0" bottom="0"/>
+		<e:Label text="本次得分" x="260" y="100"/>
+		<e:Label id="overScoreLabel" text="0" size="90" horizontalCenter="0.5" verticalCenter="-343"/>
+		<e:Button id="restart" label="" y="825" horizontalCenter="0.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="restart_btn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

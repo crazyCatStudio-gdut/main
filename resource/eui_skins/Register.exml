@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RegisterSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="1650ec90337" ></w:Config>
+	<e:Group left="0" right="0" top="0" bottom="0">
+		<e:Image source="bg03_png" left="0" right="0" top="0" bottom="0"/>
+		<e:TextInput id="regNickname" width="400" prompt="昵称1到15位" height="60" y="248.88" horizontalCenter="0"/>
+		<e:TextInput id="regUsername" width="400" prompt="电话" height="60" y="154.03" horizontalCenter="0"/>
+		<e:TextInput id="regPassword" width="400" prompt="密码6-15位数字和字母的组合" height="60" y="342.69" horizontalCenter="0"/>
+		<e:Button id="regBtn" label="立即注册" y="522.67" width="400" height="60" horizontalCenter="0"/>
+		<e:TextInput id="comfirmpw" width="400" prompt="确认密码" height="60" y="432.85" horizontalCenter="0"/>
+		<e:Label id="regPhone" text="" y="218.88" horizontalCenter="0" size="20" textColor="0xea1919"/>
+		<e:Label id="regNick" text="" y="315" textColor="0xe52020" size="20" horizontalCenter="0"/>
+		<e:Label id="regPass" text="" y="405" textColor="0xea1717" size="20" horizontalCenter="0"/>
+		<e:Label id="comfirmPw" text="" y="495" textColor="0xed1515" size="20" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

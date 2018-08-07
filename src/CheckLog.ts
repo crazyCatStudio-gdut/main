@@ -1,0 +1,4 @@
+class CheckLog {
+	public constructor() {
+	}
+}

@@ -1,0 +1,22 @@
+{
+    "1650ec2467d": {
+        "path": "scene\\Login.ts",
+        "class": "Login",
+        "parentPath": ""
+    },
+    "1650ec90337": {
+        "path": "scene\\Register.ts",
+        "class": "Register",
+        "parentPath": ""
+    },
+    "16513d0bb4d": {
+        "path": "scene\\BeginScene.ts",
+        "class": "BeginScene",
+        "parentPath": ""
+    },
+    "16513eb1b6a": {
+        "path": "scene\\GameScene.ts",
+        "class": "GameScene",
+        "parentPath": ""
+    }
+}
