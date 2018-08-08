@@ -1,0 +1,79 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "egret.Bitmap",
+			"name": "barrier_down",
+			"memberof": "Barrier",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "egret.Bitmap",
+			"name": "barrier_up",
+			"memberof": "Barrier",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "boolean",
+			"name": "hasTrigger",
+			"memberof": "GameObject",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "GameObject"
+		},
+		{
+			"kind": "member",
+			"type": "boolean",
+			"name": "isScroce",
+			"memberof": "Barrier",
+			"scope": "instance"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "Barrier",
+			"memberof": "Barrier",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "enemyData",
+					"type": "ElementData",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "createBarrier",
+			"memberof": "Barrier",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "update",
+			"memberof": "Barrier",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "timeStamp",
+					"type": "number",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "Barrier",
+		"memberof": "",
+		"filename": "E:\\game\\flybird\\FlappyBird@zxcx0101\\flaapy_bird_2\\src\\gameObject\\Barrier.ts",
+		"augments": [
+			"GameObject"
+		]
+	}
+}

@@ -1,0 +1,52 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "boolean",
+			"name": "hasTrigger",
+			"memberof": "GameObject",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "GameObject"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "Egg",
+			"memberof": "Egg",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "objData",
+					"type": "ElementData",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "update",
+			"memberof": "Egg",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "timeStamp",
+					"type": "number",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "Egg",
+		"memberof": "",
+		"filename": "E:\\game\\flybird\\FlappyBird@zxcx0101\\flaapy_bird_2\\src\\gameObject\\Egg.ts",
+		"augments": [
+			"GameObject"
+		]
+	}
+}

@@ -1,0 +1,87 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"name": "instance",
+			"memberof": "SceneController",
+			"scope": "static",
+			"rwType": 1
+		},
+		{
+			"kind": "member",
+			"type": "SceneController",
+			"name": "sceneController",
+			"memberof": "SceneController",
+			"scope": "static"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "SceneController",
+			"memberof": "SceneController",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "GameEnd",
+			"memberof": "SceneController",
+			"scope": "static",
+			"description": "游戏结束"
+		},
+		{
+			"kind": "function",
+			"name": "initGame",
+			"memberof": "SceneController",
+			"scope": "static",
+			"description": "游戏初始化（进入开始游戏场景）"
+		},
+		{
+			"kind": "function",
+			"name": "loadLevelData",
+			"memberof": "SceneController",
+			"scope": "static"
+		},
+		{
+			"kind": "function",
+			"name": "pauseGame",
+			"memberof": "SceneController",
+			"scope": "static"
+		},
+		{
+			"kind": "function",
+			"name": "setStage",
+			"memberof": "SceneController",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "s",
+					"type": "egret.DisplayObjectContainer",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "startGame",
+			"memberof": "SceneController",
+			"scope": "static",
+			"description": "游戏开始 （开始游戏）"
+		},
+		{
+			"kind": "function",
+			"name": "startGameScene",
+			"memberof": "SceneController",
+			"scope": "static",
+			"description": "游戏开始（进入游戏场景）"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "SceneController",
+		"memberof": "",
+		"filename": "E:\\game\\flybird\\FlappyBird@zxcx0101\\flaapy_bird_2\\src\\game\\SceneController.ts"
+	}
+}

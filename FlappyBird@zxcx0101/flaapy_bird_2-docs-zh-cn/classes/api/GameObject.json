@@ -1,0 +1,46 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "boolean",
+			"name": "hasTrigger",
+			"memberof": "GameObject",
+			"scope": "instance"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "GameObject",
+			"memberof": "GameObject",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "update",
+			"memberof": "GameObject",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "timeStamp",
+					"type": "number",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "GameObject",
+		"memberof": "",
+		"filename": "E:\\game\\flybird\\FlappyBird@zxcx0101\\flaapy_bird_2\\src\\gameObject\\GameObject.ts",
+		"augments": [],
+		"children": [
+			"Barrier",
+			"Egg",
+			"Player"
+		]
+	}
+}

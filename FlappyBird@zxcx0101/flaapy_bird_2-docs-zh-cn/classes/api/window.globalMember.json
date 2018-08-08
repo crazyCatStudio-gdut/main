@@ -1,0 +1,12 @@
+{
+	"globalMember": [
+		{
+			"filename": "E:\\game\\flybird\\FlappyBird@zxcx0101\\flaapy_bird_2\\src\\Platform.ts",
+			"kind": "globalMember",
+			"type": "Platform",
+			"name": "platform",
+			"memberof": "window",
+			"scope": "instance"
+		}
+	]
+}

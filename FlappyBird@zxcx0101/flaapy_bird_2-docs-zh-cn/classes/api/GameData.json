@@ -1,0 +1,132 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "barrierCount",
+			"memberof": "GameData",
+			"scope": "static",
+			"description": "穿过的障碍数"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "barrierWidth",
+			"memberof": "GameData",
+			"scope": "static",
+			"description": "管道之间的缝隙宽度"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "distance",
+			"memberof": "GameData",
+			"scope": "static",
+			"description": "走过的距离 用于计算位置"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "eggCount",
+			"memberof": "GameData",
+			"scope": "static",
+			"description": "鸡蛋计数"
+		},
+		{
+			"kind": "member",
+			"type": "any[]",
+			"name": "elements",
+			"memberof": "GameData",
+			"scope": "static",
+			"description": "存放配置文件中读取的障碍物数据",
+			"default": "[]"
+		},
+		{
+			"kind": "member",
+			"name": "gravity",
+			"memberof": "GameData",
+			"scope": "static",
+			"description": "重力加速度"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "groundHeight",
+			"memberof": "GameData",
+			"scope": "static"
+		},
+		{
+			"kind": "member",
+			"type": "boolean",
+			"name": "hasStart",
+			"memberof": "GameData",
+			"scope": "static",
+			"description": "游戏是否开始"
+		},
+		{
+			"kind": "member",
+			"type": "boolean",
+			"name": "isAlive",
+			"memberof": "GameData",
+			"scope": "static",
+			"description": "对象是否存活"
+		},
+		{
+			"kind": "member",
+			"type": "boolean",
+			"name": "ispause",
+			"memberof": "GameData",
+			"scope": "static",
+			"description": "是否暂停游戏"
+		},
+		{
+			"kind": "member",
+			"name": "jumpSpeed",
+			"memberof": "GameData",
+			"scope": "static",
+			"description": "跳跃力度"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "maxMileage",
+			"memberof": "GameData",
+			"scope": "static",
+			"description": "障碍物最远的里程数"
+		},
+		{
+			"kind": "member",
+			"type": "Player",
+			"name": "player",
+			"memberof": "GameData",
+			"scope": "static",
+			"description": "游戏角色"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "rounds",
+			"memberof": "GameData",
+			"scope": "static",
+			"description": "障碍物产生的轮数",
+			"default": "0"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "speed",
+			"memberof": "GameData",
+			"scope": "static",
+			"description": "场景的移动速度"
+		}
+	],
+	"function": [],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "GameData",
+		"memberof": "",
+		"filename": "E:\\game\\flybird\\FlappyBird@zxcx0101\\flaapy_bird_2\\src\\gameData\\GameData.ts"
+	}
+}

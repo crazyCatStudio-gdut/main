@@ -1,0 +1,20 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "StartScene",
+			"memberof": "StartScene",
+			"scope": "instance"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "StartScene",
+		"memberof": "",
+		"filename": "E:\\game\\flybird\\FlappyBird@zxcx0101\\flaapy_bird_2\\src\\game\\StartScene.ts",
+		"augments": []
+	}
+}

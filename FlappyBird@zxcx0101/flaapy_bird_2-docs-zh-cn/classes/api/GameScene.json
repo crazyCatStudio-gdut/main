@@ -1,0 +1,39 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "GameScene",
+			"memberof": "GameScene",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "startGame",
+			"memberof": "GameScene",
+			"scope": "instance",
+			"description": "游戏开始 动起来！"
+		},
+		{
+			"kind": "function",
+			"name": "startTicker",
+			"memberof": "GameScene",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "stopTicker",
+			"memberof": "GameScene",
+			"scope": "instance"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "GameScene",
+		"memberof": "",
+		"filename": "E:\\game\\flybird\\FlappyBird@zxcx0101\\flaapy_bird_2\\src\\game\\GameScene.ts",
+		"augments": []
+	}
+}

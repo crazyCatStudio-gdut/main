@@ -1,0 +1,81 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "boolean",
+			"name": "hasTrigger",
+			"memberof": "GameObject",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "GameObject"
+		},
+		{
+			"kind": "member",
+			"name": "height",
+			"memberof": "Player",
+			"scope": "instance",
+			"rwType": 1
+		},
+		{
+			"kind": "member",
+			"name": "width",
+			"memberof": "Player",
+			"scope": "instance",
+			"rwType": 1,
+			"description": "//计算玩家的宽高时 只计算鸟本身"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "Player",
+			"memberof": "Player",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "death",
+			"memberof": "Player",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "isLanding",
+					"type": "boolean",
+					"default": "false",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "jump",
+			"memberof": "Player",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "update",
+			"memberof": "Player",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "timeStamp",
+					"type": "number",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "Player",
+		"memberof": "",
+		"filename": "E:\\game\\flybird\\FlappyBird@zxcx0101\\flaapy_bird_2\\src\\gameObject\\Player.ts",
+		"description": "分析：小鸟能够 跳  死亡 玩家 小鸟 跳  哎呦",
+		"augments": [
+			"GameObject"
+		]
+	}
+}

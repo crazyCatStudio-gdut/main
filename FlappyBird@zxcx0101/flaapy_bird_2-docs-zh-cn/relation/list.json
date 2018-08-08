@@ -1,0 +1,35 @@
+{
+	"api": {
+		"class": [
+			"Barrier",
+			"DebugPlatform",
+			"Egg",
+			"GameData",
+			"GameObject",
+			"GameScene",
+			"GameUtil",
+			"LoadingUI",
+			"Main",
+			"OverScene",
+			"Player",
+			"SceneController",
+			"StartScene"
+		],
+		"interface": [
+			"ElementData",
+			"Platform",
+			"Window"
+		],
+		"globalFunction": [
+			"window.globalFunction"
+		],
+		"globalMember": [
+			"window.globalMember"
+		]
+	},
+	"other": {
+		"class": [
+			"global.Types"
+		]
+	}
+}

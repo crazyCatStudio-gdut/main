@@ -1,0 +1,19 @@
+{
+	"globalFunction": [
+		{
+			"filename": "E:\\game\\flybird\\FlappyBird@zxcx0101\\flaapy_bird_2\\src\\Main.ts",
+			"kind": "globalFunction",
+			"name": "createBitmapByName",
+			"memberof": "window",
+			"scope": "instance",
+			"description": "根据name关键字创建一个Bitmap对象。name属性请参考resources/resource.json配置文件的内容。全局函数",
+			"params": [
+				{
+					"name": "name",
+					"type": "string",
+					"description": ""
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,54 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "createBitmapByName",
+			"memberof": "GameUtil",
+			"scope": "static",
+			"params": [
+				{
+					"name": "name",
+					"type": "string",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "egret.DisplayObjectContainer",
+			"name": "createButton",
+			"memberof": "GameUtil",
+			"scope": "static",
+			"params": [
+				{
+					"name": "text",
+					"type": "string",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "egret.TextField",
+			"name": "createText",
+			"memberof": "GameUtil",
+			"scope": "static",
+			"params": [
+				{
+					"name": "text",
+					"type": "string",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "GameUtil",
+		"memberof": "",
+		"filename": "E:\\game\\flybird\\FlappyBird@zxcx0101\\flaapy_bird_2\\src\\common\\GameUtil.ts"
+	}
+}

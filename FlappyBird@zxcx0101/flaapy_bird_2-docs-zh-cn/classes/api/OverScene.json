@@ -1,0 +1,26 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "OverScene",
+			"memberof": "OverScene",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "initView",
+			"memberof": "OverScene",
+			"scope": "instance"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "OverScene",
+		"memberof": "",
+		"filename": "E:\\game\\flybird\\FlappyBird@zxcx0101\\flaapy_bird_2\\src\\game\\OverScene.ts",
+		"augments": []
+	}
+}

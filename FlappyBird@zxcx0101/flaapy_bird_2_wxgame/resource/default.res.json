@@ -1,0 +1,100 @@
+{
+	"groups": [
+		{
+			"keys": "bg_png,btn_ksyx_png,button_png,death_png,egg_png,enemy_png,floor_png,hand_png,jump_png,pause_png,platform_png,player_png,polebot_png,config_json",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/bg.jpg",
+			"type": "image",
+			"name": "bg_jpg"
+		},
+		{
+			"url": "assets/egret_icon.png",
+			"type": "image",
+			"name": "egret_icon_png"
+		},
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "assets/game/.DS_Store",
+			"type": "bin",
+			"name": "_DS_Store"
+		},
+		{
+			"url": "assets/game/bg.png",
+			"type": "image",
+			"name": "bg_png"
+		},
+		{
+			"url": "assets/game/btn_ksyx.png",
+			"type": "image",
+			"name": "btn_ksyx_png"
+		},
+		{
+			"url": "assets/game/button.png",
+			"type": "image",
+			"name": "button_png"
+		},
+		{
+			"url": "assets/game/death.png",
+			"type": "image",
+			"name": "death_png"
+		},
+		{
+			"url": "assets/game/egg.png",
+			"type": "image",
+			"name": "egg_png"
+		},
+		{
+			"url": "assets/game/enemy.png",
+			"type": "image",
+			"name": "enemy_png"
+		},
+		{
+			"url": "assets/game/floor.png",
+			"type": "image",
+			"name": "floor_png"
+		},
+		{
+			"url": "assets/game/hand.png",
+			"type": "image",
+			"name": "hand_png"
+		},
+		{
+			"url": "assets/game/jump.png",
+			"type": "image",
+			"name": "jump_png"
+		},
+		{
+			"url": "assets/game/pause.png",
+			"type": "image",
+			"name": "pause_png"
+		},
+		{
+			"url": "assets/game/platform.png",
+			"type": "image",
+			"name": "platform_png"
+		},
+		{
+			"url": "assets/game/player.png",
+			"type": "image",
+			"name": "player_png"
+		},
+		{
+			"url": "assets/game/polebot.png",
+			"type": "image",
+			"name": "polebot_png"
+		},
+		{
+			"url": "assets/game/config.json",
+			"type": "json",
+			"name": "config_json"
+		}
+	]
+}
