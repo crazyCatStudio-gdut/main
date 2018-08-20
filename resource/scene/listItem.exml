@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="listItem" width="544" height="91" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect fillColor="0x191717" anchorOffsetX="0" anchorOffsetY="0" width="544" x="0" height="91" y="0"/>
+	<e:Label id="number" text="{data.number}" x="26" y="31" anchorOffsetX="0" width="34" anchorOffsetY="0" height="29" size="20"/>
+	<e:Image id="image" width="66" height="66" x="99" y="12.5" anchorOffsetX="0" anchorOffsetY="0" source="{data.image}"/>
+	<e:Label id="hisName" text="{data.name}" x="208" anchorOffsetX="0" width="203" size="26" anchorOffsetY="0" height="29" verticalCenter="0"/>
+	<e:Label id="score" x="450" size="22" width="60" textAlign="left" anchorOffsetY="0" height="30" verticalCenter="-0.5" text="{data.score}" verticalAlign="middle"/>
+</e:Skin>

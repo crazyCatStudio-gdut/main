@@ -1,0 +1,52 @@
+syntax = "proto3";
+package Game;
+
+       //数据库有关字段 name，password,nickname,image,score,rank  表名:User Scores 视图名:List(排行榜)
+message  Client_to_server_login {
+    required string name = 1;  //11位的手机号
+    required string password = 2;   //6到16位
+}
+
+message Sever_to_client_login {
+    required int32 code = 1;  //登录成功
+    required int32 code = 2;  //该账号不存在
+    required int32 code = 3;  //账号密码不匹配
+}
+
+  //注册请求
+message  Client_to_server_reg {
+    required string name = 1;
+    required string nickname = 2;
+    required string password = 3;
+}
+  
+ //返回状态码
+message Sever_to_client_register{
+     required int32 code =1 ;  //注册成功
+     required int32 code = 2;   //注册失败(已存在该账号...)     
+}
+
+
+   //排行榜请求参数，好像是无？
+   //还有用户结束一局游戏的时候需要记下来分数
+
+    //展示排行榜
+   message Sever_to_client_showlist{
+     required int32 code =1 ;  //表示已经成功
+     
+       
+}
+   
+
+
+
+
+
+
+
+
+
+
+
+
+

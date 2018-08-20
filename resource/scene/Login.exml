@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LoginSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16522ed35a4" ></w:Config>
+	<e:Group left="0" right="0" top="0" bottom="0">
+		<e:Image left="0" right="0" top="0" bottom="0" source="bg03_png"/>
+		<e:TextInput id="loginName" width="400" height="60" prompt="用户名电话" y="196.61" horizontalCenter="0"/>
+		<e:TextInput id="loginPassword" width="400" height="60" prompt="6-15位数字和字母的组合" y="293.94" horizontalCenter="3"/>
+		<e:Button id="loginBtn"  label="登录" y="390.58" width="400" height="60" horizontalCenter="3"/>
+		<e:Button id="toReg"  label="还没注册，立即注册" y="470.59" width="400" height="60" horizontalCenter="3"/>
+		<e:Label id="logPhone" text="" y="260" textColor="0xe82020" size="20" horizontalCenter="0"/>
+		<e:Label id="logPass" text="" y="361.94" textColor="0xf73333" size="20" horizontalCenter="0.5"/>
+	</e:Group>
+</e:Skin>

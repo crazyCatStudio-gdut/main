@@ -1,0 +1,35 @@
+{
+    "global": {
+        "globalAutoLayerMarkEnable": true
+    },
+    "16522ed35a4": {
+        "path": "scene\\Login.ts",
+        "class": "Login",
+        "parentPath": ""
+    },
+    "16522efc8eb": {
+        "path": "scene\\Register.ts",
+        "class": "Register",
+        "parentPath": ""
+    },
+    "16527def9ce": {
+        "path": "scene\\ScrollerScene.ts",
+        "class": "ScrollerScene",
+        "parentPath": ""
+    },
+    "16527e1fc1c": {
+        "path": "scene\\ScrollerScene.ts",
+        "class": "ScrollerScene",
+        "parentPath": ""
+    },
+    "16527e6ef9a": {
+        "path": "scene\\ScrollerScene.ts",
+        "class": "ScrollerScene",
+        "parentPath": ""
+    },
+    "1653dc826a7": {
+        "path": "scene\\pattern.ts",
+        "class": "pattern",
+        "parentPath": ""
+    }
+}

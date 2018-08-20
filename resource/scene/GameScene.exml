@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameSceneSkin" width="640" height="1137" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="164f432f64a" ></w:Config>
+	<e:Group id="blockPanel" left="0" right="0" top="0" bottom="0">
+		<e:Image id="bg" left="0" right="0" top="0" bottom="-3" source="bg2_png" anchorOffsetY="0"/>
+		<e:Image id="player" height="130" x="100" y="930" source="piece_png"/>
+		<e:Label id="scoreLabel" text="0" x="91.5" y="121.21" size="90" textColor="0xffffff" fontFamily="Arial"/>
+		<e:Image id="share" width="42" height="48" x="18" y="1060" source="observShare_png"/>
+		<e:Label id="plusscore" text="" x="32.5" y="763" bold="true" italic="true" size="52" textColor="0x625a68"/>
+		<e:Group id="myCoin" width="200" height="102" x="18" y="22" anchorOffsetY="0">
+			<e:Label id="gamecoin" text="30" x="105" y="18" bold="true" size="44" textColor="0xdbdb32"/>
+			<e:Image width="64" height="64" x="35" y="8" source="coin_png"/>
+		</e:Group>
+		<e:Label id="time" text="20" x="491" y="67.5" anchorOffsetY="0" height="71" size="61" visible="false"/>
+	</e:Group>
+	<e:Group id="overPanel" left="0" right="0" top="0" bottom="0" visible="false">
+		<e:Rect fillAlpha="0.6" left="0" right="0" top="0" bottom="-2" anchorOffsetY="0"/>
+		<e:Rect width="528" height="236" y="443" horizontalCenter="0" fillColor="0x382e2e" skinName="hlist"/>
+		<e:Rect width="528" height="51" y="679" fillColor="0x1e1a1a" horizontalCenter="0" fillAlpha="0.61"/>
+		<e:Label text="本次得分" y="121.21" height="40" size="40" horizontalCenter="0"/>
+		<e:Label id="overScoreLabel" text="0" size="90" verticalCenter="-298" horizontalCenter="-3.5" anchorOffsetX="0" width="175" textAlign="center" verticalAlign="middle"/>
+		<e:Button id="restart" label="" y="842" anchorOffsetY="0" height="103" width="195" x="374" anchorOffsetX="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="replay_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Scroller id="hScroller" width="528" height="236" y="443" horizontalCenter="0" anchorOffsetY="0" skinName="hlist" scrollPolicyH="off" scrollPolicyV="off">
+			<e:List id="hlistItem" x="-6" y="-3" itemRendererSkinName="hlist">
+				<e:layout>
+					<e:HorizontalLayout gap="0" horizontalAlign="justify"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Image width="300" height="200" y="36.21" source="flower_png" horizontalCenter="0"/>
+		<e:Button id="home" label="" y="850" width="80" height="80" horizontalCenter="-6" anchorOffsetX="0" anchorOffsetY="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="home_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="checkRank" text="查看全部排行" x="423" y="694" size="21" fontFamily="Arial"/>
+		<e:Label text="排行榜:每周一凌晨刷新" x="62" y="694" size="21" fontFamily="Helvetica"/>
+		<e:Label text="历史最高分：" x="237" y="1086" anchorOffsetX="0" width="134" size="22"/>
+		<e:Button id="continue" label="" y="841" horizontalCenter="-167.5" width="175" height="103">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="continue_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="highestScore" text="" x="367" y="1084" size="22" width="46" height="22" textAlign="left"/>
+	</e:Group>
+	<e:Group id="overPanel2" left="0" right="0" top="0" bottom="0" visible="false">
+		<e:Rect left="0" right="0" top="0" bottom="-2" fillColor="0x0a0909" fillAlpha="0.6" anchorOffsetY="0"/>
+		<e:Rect width="548" height="408" y="118" anchorOffsetX="0" anchorOffsetY="0" fillColor="0x1c1717" horizontalCenter="0"/>
+		<e:Rect width="548" height="56" x="46.5" y="526" anchorOffsetY="0" anchorOffsetX="0" fillColor="0x302828"/>
+		<e:Image width="458" height="369" y="45.5" anchorOffsetX="0" anchorOffsetY="0" source="high_score_png" horizontalCenter="0"/>
+		<e:Button id="share2" label="" y="432" anchorOffsetX="0" width="33" height="44" anchorOffsetY="0" horizontalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="pure_share_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="overScoreLabel2" text="666" y="237" anchorOffsetX="0" width="113" anchorOffsetY="0" height="92" size="63" horizontalCenter="0" textAlign="center" verticalAlign="middle" textColor="0x0fb50e"/>
+		<e:Label id="checkRank2" text="查看群排行 &gt;" y="539" anchorOffsetX="0" width="129" textAlign="center" size="22" anchorOffsetY="0" horizontalCenter="0.5" height="25"/>
+		<e:Button id="home2" label="" x="101.5" y="854.5" anchorOffsetX="0" width="100" anchorOffsetY="0" height="100">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="home_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="restart2" label="" x="233" y="829" anchorOffsetX="0" width="334" anchorOffsetY="0" height="144">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="replay_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="hightest_score2" text="历史最高分:" x="238" y="1086" anchorOffsetX="0" width="123" size="22"/>
+		<e:Label text="" x="361" y="1084" anchorOffsetY="0" height="22" verticalAlign="middle" textAlign="center" width="46" size="22"/>
+		<e:Label id="highestScore2" text="" x="361" y="1086" size="22" width="43" height="22" verticalAlign="middle" textAlign="center"/>
+	</e:Group>
+	<e:Group id="tipPanel" width="548" height="275" y="362" horizontalCenter="0" visible="false">
+		<e:Image left="0" right="0" top="0" bottom="0" source="tip_jpg" scaleX="1" scaleY="1"/>
+		<e:Button id="fuhuo" label="确认" x="121.5" y="181.5" alpha="1" anchorOffsetX="0" width="113" height="75" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="tipBtn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="bufuhuo" label="取消" x="299" y="181.5" width="113" height="75" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="tipBtn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="tipMes" text="" y="96" size="36" horizontalCenter="0.5" width="349" height="72" verticalAlign="middle" textAlign="center" anchorOffsetX="0"/>
+	</e:Group>
+	<e:Group id="defeat" left="0" right="0" top="0" bottom="0" visible="false">
+		<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0xffffff" fillAlpha="0.58"/>
+		<e:Rect width="456" height="478" x="94" y="284" anchorOffsetX="0" anchorOffsetY="0" fillColor="0x918b8b"/>
+		<e:Label text="很遗憾" y="404" anchorOffsetX="0" width="194" anchorOffsetY="0" height="70" size="57" horizontalCenter="0"/>
+		<e:Label text="没有通过挑战，继续加油" y="531" anchorOffsetX="0" width="344" anchorOffsetY="0" height="74" horizontalCenter="0"/>
+		<e:Button id="back" label="返回主页" x="154" y="628" anchorOffsetX="0" width="137" anchorOffsetY="0" height="60"/>
+		<e:Button id="replay2" label="再玩一局" x="344" y="628" anchorOffsetX="0" width="137" anchorOffsetY="0" height="60"/>
+	</e:Group>
+	<e:Group id="success" left="0" right="0" top="0" bottom="0" visible="false">
+		<e:Rect fillColor="0xffffff" left="0" right="0" top="0" bottom="0" fillAlpha="0.59"/>
+		<e:Rect width="462" height="494" y="275" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" fillColor="0xf2b460"/>
+		<e:Label text="恭喜你" y="384" anchorOffsetX="0" width="178" anchorOffsetY="0" height="66" size="57" horizontalCenter="0"/>
+		<e:Label text="顺利通关，获得25金币奖励!!!" y="506" anchorOffsetX="0" width="216" anchorOffsetY="0" height="62" horizontalCenter="0"/>
+		<e:Button id="back2" label="返回主页" x="150" y="614" anchorOffsetX="0" width="152" anchorOffsetY="0" height="74">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="tipBtn_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button id="replay1" label="再玩一局" x="344" y="614" anchorOffsetX="0" width="152" anchorOffsetY="0" height="74">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="tipBtn_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

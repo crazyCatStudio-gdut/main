@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="tipPanel" width="548" height="275" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image left="0" right="0" top="0" bottom="0" source="tip_jpg"/>
+	<e:Button id="fuhuo" label="确认" x="122" y="180" alpha="1" anchorOffsetX="0" width="113" height="75">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="tipBtn_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="bufuhuo" label="取消" x="321" y="180" width="113" height="75">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="tipBtn_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label text="确认消耗10金币复活吗？" y="104.5" size="33" horizontalCenter="0"/>
+</e:Skin>

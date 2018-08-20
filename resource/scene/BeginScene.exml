@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BeginSceneSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="164f431bf23" ></w:Config>
+	<e:Image left="-2" right="-1" top="0" bottom="-1" source="bg222_jpg" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Button id="beginBtn" label="" y="768.18" width="385" anchorOffsetX="0" anchorOffsetY="0" height="147" horizontalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="play_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="scollBtn" height="180" anchorOffsetY="0" left="0" right="0" bottom="0">
+		<e:Rect width="642" height="180" anchorOffsetY="0" fillColor="0x4c4b4b" fillAlpha="0.47" bottom="0" x="0" anchorOffsetX="0"/>
+		<e:Button id="rank" label="" y="46" width="62" height="62" x="282.5">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="rank_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label text="娱乐模式" x="68" y="122.68" size="25" anchorOffsetX="4" anchorOffsetY="1.68" height="21"/>
+		<e:Label text="排行榜" x="276" y="121" size="25" anchorOffsetY="0" height="25"/>
+		<e:Label text="皮肤中心" x="463" y="117" size="25"/>
+		<e:Button id="mySkin" label="" x="498.12" y="70.4" anchorOffsetX="16.12" anchorOffsetY="24.4" width="62" height="62">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="skin_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="amusement" label="" x="78" y="55" anchorOffsetY="0" height="62" anchorOffsetX="0" width="62">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="amusement_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Image width="64" height="64" x="45" y="38" source="coin_png"/>
+	<e:Label id="coin" text="30" x="114" y="55" size="38" bold="true" textColor="0xefef3b"/>
+	<e:Group id="skinPanel" left="0" right="0" top="0" bottom="0" visible="false">
+		<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0xc0d7ed"/>
+		<e:Image left="0" right="0" top="0" bottom="-4" source="bg5_png" anchorOffsetY="0"/>
+		<e:Label text="我的皮肤" x="206" y="136" anchorOffsetX="0" width="206" anchorOffsetY="0" height="52" size="47" textColor="0x33abea"/>
+		<e:Rect width="144" height="206" x="146" y="309.38" anchorOffsetX="0" anchorOffsetY="0" fillColor="0x70b9f9"/>
+		<e:Rect width="144" height="206" x="335" y="309.38" anchorOffsetX="0" anchorOffsetY="0" fillColor="0x70b9f9"/>
+		<e:Button id="home" label="" x="85" y="1003" anchorOffsetY="0" height="86" width="86">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="back2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:ToggleButton id="lufei" label="" x="377" y="348.88" width="70" height="127">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="lufei_png" source.down="lufei_chosen_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+		<e:ToggleButton id="i" label="" x="191" y="348.88" height="127" anchorOffsetX="0" width="54">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="piece_png" source.down="piece_chosen_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+		<e:Rect id="lockRect" width="142" height="206" x="335" y="309.38" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0.45"/>
+		<e:Button id="lock" label="10金币解锁" x="349" y="475.88" anchorOffsetY="0" height="34"/>
+	</e:Group>
+		<e:Group id="rulePanel" left="0" right="0" top="0" bottom="0" visible="false">
+		<e:Rect left="0" right="0" top="0" bottom="-3" fillColor="0xc1ccf4" anchorOffsetY="0"/>
+		<e:Label text="游戏规则" y="147" anchorOffsetX="0" width="197" anchorOffsetY="0" height="65" verticalAlign="middle" textAlign="center" size="47" horizontalCenter="0" textColor="0x3b9ce2"/>
+		<e:Rect width="463" height="392" y="309.38" anchorOffsetX="0" anchorOffsetY="0" fillColor="0x28a4e2" horizontalCenter="0"/>
+		<e:Label text="    在本模式中，你将有20s游戏时间，不可复活。如果在游戏结束时得分大于15分，你将获得25金币，否则失去5金币，确定开始此模式吗？" x="135.5" y="366.38" anchorOffsetX="0" width="368" anchorOffsetY="0" height="278" size="36"/>
+		<e:Button id="yes" label="出发" x="120" y="779.68" anchorOffsetX="0" width="156" anchorOffsetY="0" height="64"/>
+		<e:Button id="no" label="返回" x="344.5" y="779.68" anchorOffsetX="0" width="164" anchorOffsetY="0" height="62"/>
+	</e:Group>
+		<e:Group id="tipPanel" width="548" height="275" y="362" horizontalCenter="0" visible="false">
+		<e:Image left="0" right="0" top="0" bottom="0" source="tip_jpg" scaleX="1" scaleY="1"/>
+		<e:Button id="jiesuo" label="确认" x="121.5" y="181.5" alpha="1" anchorOffsetX="0" width="113" height="75" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="tipBtn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="bujiesuo" label="取消" x="299" y="181.5" width="113" height="75" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="tipBtn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="tipMes" text="确定花费10金币解锁此皮肤吗？" y="96" size="36" horizontalCenter="0.5" width="349" height="72" verticalAlign="middle" textAlign="center" anchorOffsetX="0"/>
+	</e:Group>
+</e:Skin>
